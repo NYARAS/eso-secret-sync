@@ -1,0 +1,22 @@
+
+enabled: true
+
+
+provider:
+  gcp:
+    projectID: <PROJECT_ID>
+    authSecretName: eso-sa
+    externalSecrets:
+      apps:
+      - name: demo
+        enabled: true
+        project: demo
+        refreshInterval: 5m
+        secretType: Opaque
+        localSecretName: demo
+        remoteSecretBucket: "demo"
+        keySets:
+        - remoteKey: "DATABASE_PASSWORD"
+          isRemoteValueB64Encoded: false
+          templateKey: "DATABASE_PASSWORD"
+          localSecretKey: "DATABASE_PASSWORD"
