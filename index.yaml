@@ -1,3 +1,28 @@
 apiVersion: v1
-entries: {}
-generated: "2025-11-20T23:14:14.41319+03:00"
+entries:
+  eso-secrets-sync:
+  - apiVersion: v2
+    appVersion: v0.6.1
+    created: "2025-11-20T23:26:25.462909+03:00"
+    description: A Helm chart for setting up GCP Secret Manager Integration and having
+      the secrets created.
+    digest: 67eef26b8174670c09cd50bb733592bc65c840014863443a712a76a633aa8b53
+    keywords:
+    - helper
+    - subchart
+    - gitops
+    - secretmanagement
+    - security
+    maintainers:
+    - email: calvine.otieno@calvineotieno.com
+      name: CalvineOtieno
+      url: https://www.calvineotieno.com/
+    name: eso-secrets-sync
+    sources:
+    - https://charts.stderr.at/
+    - https://charts.external-secrets.io
+    type: application
+    urls:
+    - eso-secrets-sync-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-11-20T23:26:25.460004+03:00"
