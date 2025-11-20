@@ -7,3 +7,18 @@ type: application
 version: 1.0.0
 
 appVersion: "v0.6.1"
+
+maintainers:
+  - name: CalvineOtieno
+    email: calvine.otieno@calvineotieno.com
+    url: https://www.calvineotieno.com/
+dependencies: []
+sources:
+  - https://charts.stderr.at/
+  - https://charts.external-secrets.io
+keywords:
+  - helper
+  - subchart
+  - gitops
+  - secretmanagement
+  - security
