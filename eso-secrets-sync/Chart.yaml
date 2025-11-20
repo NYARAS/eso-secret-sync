@@ -1,0 +1,9 @@
+apiVersion: v2
+name: eso-secrets-sync
+description: A Helm chart for setting up GCP Secret Manager Integration and having the secrets created. 
+
+type: application
+
+version: 1.0.0
+
+appVersion: "v0.6.1"
